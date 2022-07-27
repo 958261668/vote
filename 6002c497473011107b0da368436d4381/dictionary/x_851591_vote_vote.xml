@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="vote" max_length="40" name="x_851591_vote_vote" type="collection">
+    <element label="vote" max_length="40" name="x_851591_vote_vote" sizeclass="6" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="400" name="address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Birthday" max_length="40" name="birthday" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Nationality" max_length="40" name="nationality" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Sex" max_length="40" name="sex" type="string"/>
-        <element label="New True/False" max_length="40" name="u_boolean_3" type="boolean"/>
-        <element label="New True/False" max_length="40" name="u_boolean_6" type="boolean"/>
         <element label="Vote status" max_length="40" name="u_boolean_8" read_only="true" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Vote content" max_length="40" name="vote_content" type="string">
             <choice>
@@ -17,6 +15,5 @@
                 <element inactive_on_update="false" label="其它" sequence="3" value="其它"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="New True/False" max_length="40" name="vote_status" type="string"/>
     </element>
 </database>

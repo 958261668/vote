@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="vote_status" table="x_851591_vote_vote">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_birthday" table="x_851591_vote_new_vote_data6">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=Birthday</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>New True/False</column_label>
+        <column_label>Birthday</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,7 +22,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>vote_status</element>
+        <element>u_birthday</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -30,7 +30,7 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_851591_vote_vote</name>
+        <name>x_851591_vote_new_vote_data6</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-25 01:19:36</sys_created_on>
-        <sys_id>9824809b473011107b0da368436d4399</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>New True/False</sys_name>
+        <sys_created_on>2022-07-26 05:58:43</sys_created_on>
+        <sys_id>aa9dc2eb47f011107b0da368436d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Birthday</sys_name>
         <sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package>
         <sys_policy/>
         <sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope>
-        <sys_update_name>sys_dictionary_x_851591_vote_vote_vote_status</sys_update_name>
+        <sys_update_name>sys_dictionary_x_851591_vote_new_vote_data6_u_birthday</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-25 01:49:08</sys_updated_on>
+        <sys_updated_on>2022-07-26 05:58:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>u_boolean_8</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 07:51:36</sys_created_on>
+        <sys_id>22add91f477411107b0da368436d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_boolean_8</sys_name>
+        <sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope>
+        <sys_update_name>sys_ui_policy_action_22add91f477411107b0da368436d43d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 07:51:36</sys_updated_on>
+        <table>x_851591_vote_vote</table>
+        <ui_policy display_value="vote true or false Other field">880c91db477411107b0da368436d43e8</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="vote">6002c497473011107b0da368436d4381</application>
+        <file_path/>
+        <instance_id>1365fcd2db5d4150ad8dd7c8f49619cb</instance_id>
+        <instance_name>dev122427</instance_name>
+        <name>sys_ui_policy_action_22add91f477411107b0da368436d43d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>u_boolean_8</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-25 07:51:36</sys_created_on><sys_id>22add91f477411107b0da368436d43d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_boolean_8</sys_name><sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package><sys_policy/><sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope><sys_update_name>sys_ui_policy_action_22add91f477411107b0da368436d43d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-25 07:51:36</sys_updated_on><table>x_851591_vote_vote</table><ui_policy display_value="vote true or false Other field">880c91db477411107b0da368436d43e8</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1082666767</payload_hash>
+        <record_name>u_boolean_8</record_name>
+        <reverted_from/>
+        <source>14d85c5f477011107b0da368436d4376</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 07:51:36</sys_created_on>
+        <sys_id>5edd515f477411107b0da368436d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18234570cf00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 07:51:36</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>96dd515f91741110f1ee2425f4299b28</update_guid>
+        <update_guid_history>96dd515f91741110f1ee2425f4299b28:-1082666767</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 07:52:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>03dae1c4e0884ccc928c17b69546fda4</sys_id>
+        <sys_metadata>22add91f477411107b0da368436d43d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_boolean_8</sys_name>
+        <sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package>
+        <sys_parent display_value="">880c91db477411107b0da368436d43e8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope>
+        <sys_scope_delete display_value="">1c83f4c30f494237ba46698f48656919</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_22add91f477411107b0da368436d43d3</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_22add91f477411107b0da368436d43d3">5edd515f477411107b0da368436d4328</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 07:52:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

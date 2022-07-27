@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_boolean_6" table="x_851591_vote_vote">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>New True/False</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_boolean_6</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">boolean</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_851591_vote_vote</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 01:48:01</sys_created_on>
+        <sys_id>9caa8813477011107b0da368436d4353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New True/False</sys_name>
+        <sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope>
+        <sys_update_name>sys_dictionary_x_851591_vote_vote_u_boolean_6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 01:48:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="vote">6002c497473011107b0da368436d4381</application>
+        <file_path/>
+        <instance_id>1365fcd2db5d4150ad8dd7c8f49619cb</instance_id>
+        <instance_name>dev122427</instance_name>
+        <name>sys_dictionary_x_851591_vote_vote_u_boolean_6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_boolean_6" table="x_851591_vote_vote"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>New True/False</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_boolean_6</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="">boolean</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_851591_vote_vote</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-25 01:48:01</sys_created_on><sys_id>9caa8813477011107b0da368436d4353</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New True/False</sys_name><sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package><sys_policy/><sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope><sys_update_name>sys_dictionary_x_851591_vote_vote_u_boolean_6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-25 01:48:01</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1926911146</payload_hash>
+        <record_name>vote.New True/False</record_name>
+        <reverted_from/>
+        <source>a002c497473011107b0da368436d4383</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 01:48:01</sys_created_on>
+        <sys_id>98aa8813477011107b0da368436d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182330a2e260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 01:48:01</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>14aa8813c57011102bf0ab8067a3eec7</update_guid>
+        <update_guid_history>14aa8813c57011102bf0ab8067a3eec7:1926911146</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 02:49:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>cbe3dd23daa149cc83bdd847814d6424</sys_id>
+        <sys_metadata>9caa8813477011107b0da368436d4353</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New True/False</sys_name>
+        <sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package>
+        <sys_parent display_value="vote">0024809b473011107b0da368436d4331</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope>
+        <sys_scope_delete display_value="">1c83f4c30f494237ba46698f48656919</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_851591_vote_vote_u_boolean_6</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_851591_vote_vote_u_boolean_6">98aa8813477011107b0da368436d43c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 02:49:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

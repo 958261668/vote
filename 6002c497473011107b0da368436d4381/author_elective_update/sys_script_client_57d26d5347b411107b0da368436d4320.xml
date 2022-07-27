@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>vote_content</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Vote Request Type Options</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    
+    if(newValue == ''){
+      g_form.setValue('u_boolean_8','false');
+    }else{
+      g_form.setValue('u_boolean_8','true');
+	}
+	
+  }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 08:21:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57d26d5347b411107b0da368436d4320</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Vote Request Type Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope>
+        <sys_update_name>sys_script_client_57d26d5347b411107b0da368436d4320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 08:39:48</sys_updated_on>
+        <table>x_851591_vote_vote</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="vote">6002c497473011107b0da368436d4381</application>
+        <file_path/>
+        <instance_id>1365fcd2db5d4150ad8dd7c8f49619cb</instance_id>
+        <instance_name>dev122427</instance_name>
+        <name>sys_script_client_57d26d5347b411107b0da368436d4320</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;vote_content&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Vote Request Type Options&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    
+    if(newValue == ''){
+      g_form.setValue('u_boolean_8','false');
+    }else{
+      g_form.setValue('u_boolean_8','true');
+	}
+	
+  }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-25 08:21:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;57d26d5347b411107b0da368436d4320&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Vote Request Type Options&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="vote" source="x_851591_vote"&gt;6002c497473011107b0da368436d4381&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="vote"&gt;6002c497473011107b0da368436d4381&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_57d26d5347b411107b0da368436d4320&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-25 08:39:48&lt;/sys_updated_on&gt;&lt;table&gt;x_851591_vote_vote&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1450207354</payload_hash>
+        <record_name>Vote Request Type Options</record_name>
+        <reverted_from/>
+        <source>14d85c5f477011107b0da368436d4376</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 08:39:48</sys_created_on>
+        <sys_id>58e8ad5747b411107b0da368436d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18234832dce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 08:39:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>50e8ad5754b4111037a2ccebcc5f5d07</update_guid>
+        <update_guid_history>50e8ad5754b4111037a2ccebcc5f5d07:1450207354,8068a19777b41110ca5c80beb5e0b1e6:-545979662,8f77ad5759b41110a9b271f88042fc80:2063092282,ac07a957fdb41110195d2cfbec1830d8:1933742167,c685edd38db41110afd06bb60d2342f4:-952012876,0c65edd343b41110a1e3df319a399f69:-873927076,e635edd3aab41110d6b08a1008cd3e63:-1508099571,30c4e1d33fb41110212846988cdd2b69:-1661021369</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 08:40:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>16b08e9c920348e9850823458e388e81</sys_id>
+        <sys_metadata>57d26d5347b411107b0da368436d4320</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vote Request Type Options</sys_name>
+        <sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package>
+        <sys_parent display_value="vote">0024809b473011107b0da368436d4331</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope>
+        <sys_scope_delete display_value="">1c83f4c30f494237ba46698f48656919</sys_scope_delete>
+        <sys_update_name>sys_script_client_57d26d5347b411107b0da368436d4320</sys_update_name>
+        <sys_update_version display_value="sys_script_client_57d26d5347b411107b0da368436d4320">58e8ad5747b411107b0da368436d4307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 08:40:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

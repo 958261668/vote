@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>data8</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_851591_vote_new_vote_data8</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 06:42:04</sys_created_on>
+        <sys_id>dd779a27473411107b0da368436d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>data8</sys_name>
+        <sys_package display_value="vote" source="x_851591_vote">6002c497473011107b0da368436d4381</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vote">6002c497473011107b0da368436d4381</sys_scope>
+        <sys_update_name>sys_transform_map_dd779a27473411107b0da368436d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 06:42:04</sys_updated_on>
+        <target_table>x_851591_vote_vote</target_table>
+    </sys_transform_map>
+</record_update>
